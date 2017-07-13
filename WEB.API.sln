@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IService", "IService\IService.csproj", "{90290C05-04AB-42EF-8BB8-70E9A52AAB16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository.cs", "IRepository.cs\IRepository.cs.csproj", "{E5F63B41-8B4A-4B52-9754-9CED83CAC45C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepository", "IRepository.cs\IRepository.csproj", "{E5F63B41-8B4A-4B52-9754-9CED83CAC45C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModel", "ViewModel\ViewModel.csproj", "{477A5F90-5193-49DB-A56E-DF3976C32D77}"
 EndProject

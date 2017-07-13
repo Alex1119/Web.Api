@@ -159,9 +159,9 @@
       <Project>{265feca0-afea-4a46-984b-1078a1a1fa5c}</Project>
       <Name>Entity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\IRepository.cs\IRepository.cs.csproj">
+    <ProjectReference Include="..\IRepository.cs\IRepository.csproj">
       <Project>{e5f63b41-8b4a-4b52-9754-9ced83cac45c}</Project>
-      <Name>IRepository.cs</Name>
+      <Name>IRepository</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

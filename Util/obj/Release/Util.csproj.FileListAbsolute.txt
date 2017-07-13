@@ -1,0 +1,9 @@
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Release\Util.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Release\Util.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Release\AutoMapper.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Release\Newtonsoft.Json.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Release\AutoMapper.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Release\Newtonsoft.Json.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\obj\Release\Util.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\obj\Release\Util.pdb

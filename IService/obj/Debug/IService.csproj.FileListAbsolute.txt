@@ -1,0 +1,10 @@
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\IService.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\IService.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\Entity.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\EntityFramework.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\Entity.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\EntityFramework.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\obj\Debug\IService.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\obj\Debug\IService.pdb

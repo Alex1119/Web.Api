@@ -1,0 +1,16 @@
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\ViewModel.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\ViewModel.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\AutoMapper.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\Entity.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\Util.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\EntityFramework.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\Newtonsoft.Json.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\Entity.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\Util.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\AutoMapper.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\EntityFramework.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\Newtonsoft.Json.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\Release\zh-Hans\EntityFramework.resources.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\obj\Release\ViewModel.csprojResolveAssemblyReference.cache
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\obj\Release\ViewModel.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\obj\Release\ViewModel.pdb

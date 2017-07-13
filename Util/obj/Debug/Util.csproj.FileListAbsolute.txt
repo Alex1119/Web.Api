@@ -1,0 +1,8 @@
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Debug\Util.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Debug\Util.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Debug\AutoMapper.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Debug\Newtonsoft.Json.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Debug\AutoMapper.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\bin\Debug\Newtonsoft.Json.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\obj\Debug\Util.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Util\obj\Debug\Util.pdb

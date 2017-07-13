@@ -1,0 +1,10 @@
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\IRepository.cs.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\IRepository.cs.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\Entity.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\EntityFramework.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\Entity.pdb
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\EntityFramework.xml
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\bin\Release\zh-Hans\EntityFramework.resources.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\obj\Release\IRepository.cs.csprojResolveAssemblyReference.cache
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\obj\Release\IRepository.cs.dll
+c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IRepository.cs\obj\Release\IRepository.cs.pdb

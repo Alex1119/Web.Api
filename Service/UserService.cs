@@ -1,7 +1,7 @@
 ﻿using Entity.EF;
-using IRepository.cs.EF;
-using IRepository.cs.MongoDB;
-using IRepository.cs.Redis;
+using IRepository.EF;
+using IRepository.MongoDB;
+using IRepository.Redis;
 using IService;
 using Service.MQ;
 using System;

@@ -7,8 +7,8 @@
     <ProjectGuid>{E5F63B41-8B4A-4B52-9754-9CED83CAC45C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IRepository.cs</RootNamespace>
-    <AssemblyName>IRepository.cs</AssemblyName>
+    <RootNamespace>IRepository</RootNamespace>
+    <AssemblyName>IRepository</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

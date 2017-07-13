@@ -1,5 +1,5 @@
 ﻿using Entity.EF;
-using IRepository.cs.EF;
+using IRepository.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;

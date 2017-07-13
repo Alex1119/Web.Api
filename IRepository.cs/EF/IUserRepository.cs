@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IRepository.cs.EF
+namespace IRepository.EF
 {
     public interface IUserRepository
     {

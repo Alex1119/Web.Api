@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IRepository.cs.Redis
+namespace IRepository.Redis
 {
     public interface IUserInfoRepository
     {

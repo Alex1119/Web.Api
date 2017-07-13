@@ -1,5 +1,5 @@
 ﻿using Entity.MongoDB;
-using IRepository.cs.MongoDB;
+using IRepository.MongoDB;
 using System;
 using System.Collections.Generic;
 using System.Linq;

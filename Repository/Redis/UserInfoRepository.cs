@@ -1,4 +1,4 @@
-﻿using IRepository.cs.Redis;
+﻿using IRepository.Redis;
 using System;
 using System.Collections.Generic;
 using System.Linq;

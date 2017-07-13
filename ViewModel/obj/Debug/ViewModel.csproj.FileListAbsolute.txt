@@ -14,3 +14,19 @@ c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\bin\De
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\obj\Debug\ViewModel.dll
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\AutoMapper.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\Entity.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\Util.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\EntityFramework.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\Entity.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\Util.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\AutoMapper.xml
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\EntityFramework.xml
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\ViewModel\obj\Debug\ViewModel.pdb

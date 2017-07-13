@@ -1,5 +1,5 @@
 ﻿using Entity.EF;
-using IRepository.cs.MongoDB;
+using IRepository.MongoDB;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;

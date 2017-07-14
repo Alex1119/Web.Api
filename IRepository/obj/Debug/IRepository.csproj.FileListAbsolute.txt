@@ -1,0 +1,10 @@
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\IRepository.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\IRepository.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\Entity.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\EntityFramework.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\Entity.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\EntityFramework.xml
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\obj\Debug\IRepository.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\obj\Debug\IRepository.dll
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\IRepository\obj\Debug\IRepository.pdb

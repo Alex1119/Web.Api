@@ -54,6 +54,7 @@ c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Repository\bin\D
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Repository\obj\Debug\Repository.dll
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Repository\obj\Debug\Repository.pdb
+C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\Repository.dll.config
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\Repository.dll
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\Repository.pdb
@@ -107,6 +108,5 @@ C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\Sys
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\zh-Hans\EntityFramework.resources.dll
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\obj\Debug\Repository.dll
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Repository\obj\Debug\Repository.pdb

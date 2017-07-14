@@ -32,6 +32,5 @@ C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\bin\Debug\MongoDB
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\bin\Debug\MongoDB.Driver.Core.xml
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\bin\Debug\zh-Hans\EntityFramework.resources.dll
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
-C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\obj\Debug\Entity.dll
 C:\Users\hzguest3\Documents\Project\Web.Api4GIT\Web.Api\Entity\obj\Debug\Entity.pdb

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E5F63B41-8B4A-4B52-9754-9CED83CAC45C}</ProjectGuid>
+    <ProjectGuid>{5E901AD5-6C60-47C0-BB62-603A2C11F67B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>IRepository</RootNamespace>
@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entity\Entity.csproj">
-      <Project>{265feca0-afea-4a46-984b-1078a1a1fa5c}</Project>
+      <Project>{265FECA0-AFEA-4A46-984B-1078A1A1FA5C}</Project>
       <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>

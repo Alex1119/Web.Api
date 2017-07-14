@@ -338,10 +338,6 @@
       <Project>{265feca0-afea-4a46-984b-1078a1a1fa5c}</Project>
       <Name>Entity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\IRepository.cs\IRepository.csproj">
-      <Project>{E5F63B41-8B4A-4B52-9754-9CED83CAC45C}</Project>
-      <Name>IRepository</Name>
-    </ProjectReference>
     <ProjectReference Include="..\IService\IService.csproj">
       <Project>{90290c05-04ab-42ef-8bb8-70e9a52aab16}</Project>
       <Name>IService</Name>

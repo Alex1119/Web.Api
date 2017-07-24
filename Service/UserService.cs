@@ -32,7 +32,7 @@ namespace Service
         public UserInfo Register(string UserName, bool Gender, int Age) {
             var entity = _IUserInfoRepository.Register(UserName, Gender, Age);
             if (entity != null) {
-                new DLXProducter().Pub<UserInfo>(entity);
+                new UserProducter().Pub<UserInfo>(entity);
             };
             return entity;
         }

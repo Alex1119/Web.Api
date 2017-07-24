@@ -17,3 +17,22 @@ c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Entity\bin\Relea
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Entity\bin\Release\MongoDB.Driver.xml
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Entity\bin\Release\MongoDB.Driver.Core.xml
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\Entity.dll.config
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\Entity.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\Entity.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\EntityFramework.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\MongoDB.Driver.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\EntityFramework.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\MongoDB.Bson.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\MongoDB.Driver.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\MongoDB.Driver.Core.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\zh-Hans\EntityFramework.resources.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\bin\Release\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\obj\Release\Entity.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Entity\obj\Release\Entity.pdb

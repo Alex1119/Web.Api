@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Entity.EF
 {
 
-    [Table("UserInfo", Schema = "CodeFirst")]
+    [Serializable,Table("UserInfo", Schema = "CodeFirst")]
     public class UserInfo :BaseEntity
     {
         

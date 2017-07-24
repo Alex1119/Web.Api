@@ -13,6 +13,8 @@ namespace MQConsumer
 {
     public class MvcApplication : HttpApplication
     {
+        public static IContainer Container { get; set; }
+
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -20,11 +22,10 @@ namespace MQConsumer
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            var Container = AutoFacConfig.AutoFacInit();
+            Container = AutoFacConfig.AutoFacInit();
             var userConsumer = Container.Resolve<UserConsumer>();
-            var userConsumer2 = Container.Resolve<UserConsumer2>();
             userConsumer.Sub();
-            userConsumer2.Sub();
+            new DLXProducter().Declare();
         }
     }
 }

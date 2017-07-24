@@ -341,6 +341,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\System.Web
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\System.Web.WebPages.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\System.Web.WebPages.Razor.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\WebGrease.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\MongoDB.Bson.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Interfaces.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Redis.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\IRepository.dll
@@ -350,7 +351,6 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\RabbitMQ.C
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Util.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Text.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Common.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\MongoDB.Bson.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\AutoMapper.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Entity.pdb
@@ -391,6 +391,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Microsoft.
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\MongoDB.Bson.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Interfaces.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Redis.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\IRepository.pdb
@@ -400,7 +401,6 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\RabbitMQ.C
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\Util.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Text.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\ServiceStack.Common.xml
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\MongoDB.Bson.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\AutoMapper.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\zh-Hans\System.Web.Helpers.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\MQConsumer\bin\zh-Hans\System.Web.Mvc.resources.dll

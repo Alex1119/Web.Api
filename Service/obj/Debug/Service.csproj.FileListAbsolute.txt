@@ -111,6 +111,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.Web.WebPages.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\Util.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\MongoDB.Bson.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\EntityFramework.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\AutoMapper.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\Entity.pdb
@@ -130,11 +131,10 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.Web.WebPages.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\MongoDB.Bson.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\EntityFramework.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\AutoMapper.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\zh-Hans\EntityFramework.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\obj\Debug\Service.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\obj\Debug\Service.pdb
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\MongoDB.Bson.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\MongoDB.Bson.xml

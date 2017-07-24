@@ -8,3 +8,15 @@ c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\bin\Rel
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\obj\Release\IService.csprojResolveAssemblyReference.cache
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\obj\Release\IService.dll
 c:\Users\hzguest3\documents\visual studio 2015\Projects\WEB.API\IService\obj\Release\IService.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\IService.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\IService.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\Entity.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\EntityFramework.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\Entity.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\MongoDB.Bson.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\EntityFramework.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Release\zh-Hans\EntityFramework.resources.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Release\IService.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Release\IService.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Release\IService.pdb

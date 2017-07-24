@@ -20,5 +20,6 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\bin\Debug\AutoMapper
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\bin\Debug\Newtonsoft.Json.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\bin\Debug\AutoMapper.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\obj\Debug\Util.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\obj\Debug\Util.pdb

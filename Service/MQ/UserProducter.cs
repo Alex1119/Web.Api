@@ -1,4 +1,5 @@
-﻿using RabbitMQ.Client;
+﻿using Entity.EF;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
@@ -11,31 +12,14 @@ namespace Service.MQ
 {
     public class UserProducter :MQBase
     {
-        public IConnection connection;
-        public IModel channel;
 
-        public void Pub<T>(T message)
+        public void Pub<T>(T Data)
         {
-            try
+            var userInfo = Data as UserInfo;
+            if (userInfo != null)
             {
-                connection = CreateConnectFactory().CreateConnection();
-                channel = connection.CreateModel();
-                channel.ExchangeDeclare(MQ_USER_EXCHANGE, ExchangeType.Direct, true, true, null);
-                channel.QueueDeclare(MQ_USER_QUEUE, true, false, true, null);
-                channel.QueueBind(MQ_USER_QUEUE, MQ_USER_EXCHANGE, MQ_USER_ROUTEKEY);
-                var properties = channel.CreateBasicProperties();
-                properties.DeliveryMode = 2;
-                var msgBytes = JSONHelper.SerializeToByte(message);
-                channel.BasicPublish(MQ_USER_EXCHANGE, MQ_USER_ROUTEKEY, properties, msgBytes);
+                Pub<UserInfo>(new MQMessage<UserInfo>(5000, MQ_USER_EXCHANGE, MQ_USER_QUEUE, MQ_USER_ROUTEKEY, userInfo));
             }
-            catch (Exception ex)
-            {
-            }
-            finally {
-                UnSubscribe(connection, channel);
-            }
-            
-
         }
         
     }

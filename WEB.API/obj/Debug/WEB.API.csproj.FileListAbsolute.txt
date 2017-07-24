@@ -325,6 +325,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Autofac.Integ
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Entity.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\EntityFramework.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\EntityFramework.SqlServer.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\IRepository.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\IService.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.AI.Agent.Intercept.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.AI.DependencyCollector.dll
@@ -364,9 +365,9 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.We
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.WebPages.Razor.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ViewModel.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebGrease.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Bson.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Interfaces.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Redis.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\IRepository.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Driver.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Driver.Core.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\RabbitMQ.Client.dll
@@ -374,9 +375,9 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Util.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\AutoMapper.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Text.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Common.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Bson.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Entity.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\IRepository.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\IService.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Repository.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Service.pdb
@@ -417,9 +418,9 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.Owi
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.Http.Owin.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Bson.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Interfaces.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Redis.xml
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\IRepository.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Driver.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Driver.Core.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\RabbitMQ.Client.xml
@@ -427,7 +428,6 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Util.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\AutoMapper.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Text.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Common.xml
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Bson.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\System.Web.Helpers.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\System.Web.Http.resources.dll
@@ -452,7 +452,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\Micro
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\System.Web.Http.Owin.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csprojResolveAssemblyReference.cache
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.Migrations.CreateTable.resources
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csproj.GenerateResource.Cache
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.pdb

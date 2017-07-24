@@ -24,7 +24,10 @@ namespace Service.MQ
 
         public void Sub() {
             try {
-                Subscribe(ref connection, ref channel, MQ_USER_EXCHANGE, MQ_USER_QUEUE);
+                var queueArg = new Dictionary<string, object>();  
+                queueArg.Add("x-dead-letter-exchange", MQ_DLX_EXCHANGE);//过期消息转向路由  
+                queueArg.Add("x-dead-letter-routing-key", MQ_DLX_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
+                Subscribe(ref connection, ref channel, MQ_USER_EXCHANGE, MQ_USER_QUEUE, MQ_USER_ROUTEKEY, queueArg);
                 var headers = new Dictionary<string, object>();
                 //all:表示所有的键值对都匹配才能接受到消息  
                 //any:表示只要有键值对匹配就能接受到消息 
@@ -35,7 +38,8 @@ namespace Service.MQ
                 consumer.Received += (model, ea) =>
                 {
                     try {
-                        var userInfo = JSONHelper.DeserializeObject<DLXMessage<UserInfo>>(ea.Body);
+                        var a = int.Parse("12w");
+                        var userInfo = JSONHelper.DeserializeObject<MQMessage<UserInfo>>(ea.Body);
                         try {
                             if (_IUserDetailRepository.Add(userInfo.Data.UserID, userInfo.Data.UserName))
                             {
@@ -43,19 +47,19 @@ namespace Service.MQ
                             }
                             else
                             {
-                                //channel.BasicReject(ea.DeliveryTag, true);
-                                new DLXProducter().RePub(userInfo);
-                                channel.BasicAck(ea.DeliveryTag, false);
+                                //channel.BasicNack(ea.DeliveryTag, false, false);
+                                Reject(channel, ea);
                             }
                         }
                         catch (Exception ex)
                         {
-                            //channel.BasicReject(ea.DeliveryTag, true);
-                            new DLXProducter().RePub(userInfo);
-                            channel.BasicAck(ea.DeliveryTag, false);
+                            //channel.BasicNack(ea.DeliveryTag, false, false);
+                            Reject(channel, ea);
                         }
                     }
                     catch (Exception ex) {
+                        //channel.BasicNack(ea.DeliveryTag, false, false);
+                        Reject(channel, ea);
                     }
                     
                 };

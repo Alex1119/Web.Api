@@ -97,11 +97,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MQ\DLXMessage.cs" />
+    <Compile Include="MQ\DLXConsumer.cs" />
+    <Compile Include="MQ\MQMessage.cs" />
     <Compile Include="MQ\DLXProducter.cs" />
     <Compile Include="MQ\UserConsumer.cs" />
     <Compile Include="MQ\MQBase.cs" />
-    <Compile Include="MQ\UserConsumer2.cs" />
     <Compile Include="MQ\UserProducter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserService.cs" />

@@ -46,3 +46,5 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\ViewModel\bin\Debug\zh-Ha
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\ViewModel\obj\Debug\ViewModel.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\ViewModel\obj\Debug\ViewModel.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\ViewModel\obj\Debug\ViewModel.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\ViewModel\bin\Debug\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\ViewModel\bin\Debug\MongoDB.Bson.xml

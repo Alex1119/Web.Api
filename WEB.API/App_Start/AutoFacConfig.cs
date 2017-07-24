@@ -14,7 +14,7 @@ namespace WEB.API.App_Start
 {
     public class AutoFacConfig
     {
-        public static void AutoFacInit()
+        public static IContainer AutoFacInit()
         {
             //APIController 中使用属性注入  逻辑层与数据层使用构造方法注入
 
@@ -32,6 +32,7 @@ namespace WEB.API.App_Start
             //注册api容器需要使用HttpConfiguration对象
             config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
+            return container;
         }
 
         private static void SetupResolveRules(ContainerBuilder builder)

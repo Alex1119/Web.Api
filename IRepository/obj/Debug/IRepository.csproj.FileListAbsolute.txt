@@ -18,3 +18,5 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IRepository\bin\Debug\zh-
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IRepository\obj\Debug\IRepository.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IRepository\obj\Debug\IRepository.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IRepository\obj\Debug\IRepository.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IRepository\bin\Debug\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IRepository\bin\Debug\MongoDB.Bson.xml

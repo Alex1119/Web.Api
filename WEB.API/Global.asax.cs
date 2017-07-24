@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Autofac;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,8 @@ namespace WEB.API
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        public static IContainer Container { get; set; }
+
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -21,7 +24,7 @@ namespace WEB.API
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             //初始化依赖注入
-            AutoFacConfig.AutoFacInit();
+            Container = AutoFacConfig.AutoFacInit();
         }
     }
 }

@@ -22,9 +22,9 @@ namespace WEB.API.Filter
         {
             string token = null;
             if (GetToken(actionContext, out token)) {
+                //TODO 验证Token逻辑
 
             }
-
             base.OnActionExecuting(actionContext);
         }
 

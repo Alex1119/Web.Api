@@ -28,3 +28,5 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Debug\zh-Han
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Debug\IService.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Debug\IService.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Debug\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Debug\MongoDB.Bson.xml

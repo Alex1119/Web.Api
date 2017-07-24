@@ -250,6 +250,7 @@
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Filter\BaseExceptionFilterAttribute.cs" />
     <Compile Include="Filter\TokenFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -343,6 +344,10 @@
     <ProjectReference Include="..\Entity\Entity.csproj">
       <Project>{265feca0-afea-4a46-984b-1078a1a1fa5c}</Project>
       <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IRepository\IRepository.csproj">
+      <Project>{5E901AD5-6C60-47C0-BB62-603A2C11F67B}</Project>
+      <Name>IRepository</Name>
     </ProjectReference>
     <ProjectReference Include="..\IService\IService.csproj">
       <Project>{90290c05-04ab-42ef-8bb8-70e9a52aab16}</Project>

@@ -136,3 +136,5 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\zh-Hans
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\obj\Debug\Service.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\obj\Debug\Service.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Service\bin\Debug\MongoDB.Bson.xml

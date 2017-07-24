@@ -136,6 +136,7 @@
   <ItemGroup>
     <Compile Include="EF\EFUtil\BaseRepository.cs" />
     <Compile Include="EF\UserRepository.cs" />
+    <Compile Include="MongoDB\LogRepository.cs" />
     <Compile Include="MongoDB\MongoDBUtil\DoMongoBase.cs" />
     <Compile Include="MongoDB\MongoDBUtil\DoMongoRepository.cs" />
     <Compile Include="MongoDB\MongoDBUtil\MongoLogConfig.cs" />

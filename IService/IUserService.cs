@@ -9,14 +9,8 @@ namespace IService
 {
     public interface IUserService
     {
-        int CountsFromSQLServer();
-
-        int CountsFromMongo();
-
-        int CountsFromRedis();
 
         UserInfo Register(string UserName, bool Gender, int Age);
-        
       
     }
 }

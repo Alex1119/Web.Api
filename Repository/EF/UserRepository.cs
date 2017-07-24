@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace Repository.EF
 {
-    public class UserRepository : BaseRepository<UserInfo>, IUserRepository
+    public abstract class UserRepository : BaseRepository<UserInfo>, IUserRepository
     {
         public int Counts()
         {
             return Count();
         }
 
-        public UserInfo Register(string UserName, bool Gender, int Age)
+        public virtual UserInfo Register(string UserName, bool Gender, int Age)
         {
             var entity = new UserInfo
             {

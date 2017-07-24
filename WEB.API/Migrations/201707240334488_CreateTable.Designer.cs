@@ -13,7 +13,7 @@ namespace WEB.API.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201707211002057_CreateTable"; }
+            get { return "201707240334488_CreateTable"; }
         }
         
         string IMigrationMetadata.Source

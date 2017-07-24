@@ -452,7 +452,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\Micro
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\zh-Hans\System.Web.Http.Owin.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csprojResolveAssemblyReference.cache
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.Migrations.CreateTable.resources
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csproj.GenerateResource.Cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.Migrations.CreateTable.resources
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csproj.GenerateResource.Cache

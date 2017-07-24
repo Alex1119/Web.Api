@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entity.EF;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace IRepository.Redis
 {
     public interface IUserInfoRepository
     {
-        int Counts();
+        UserInfo Register(string UserName, bool Gender, int Age);
 
     }
 }

@@ -29,24 +29,8 @@ namespace Service
 
         #endregion
 
-
-        public int CountsFromSQLServer()
-        {
-            return _IUserRepository.Counts();
-        }
-
-        public int CountsFromMongo()
-        {
-            return _IUserDetailRepository.Counts();
-        }
-       
-        public int CountsFromRedis()
-        {
-            return _IUserInfoRepository.Counts();
-        }
-
         public UserInfo Register(string UserName, bool Gender, int Age) {
-            var entity = _IUserRepository.Register(UserName, Gender, Age);
+            var entity = _IUserInfoRepository.Register(UserName, Gender, Age);
             if (entity != null) {
                 new DLXProducter().Pub<UserInfo>(entity);
             };

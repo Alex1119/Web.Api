@@ -11,7 +11,7 @@ namespace Entity
     [Serializable]
     public class BaseEntity
     {
-        [Column(Order = 1)]
+        [Column(Order = 1), DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
        
     }

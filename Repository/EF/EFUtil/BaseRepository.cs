@@ -13,9 +13,9 @@ namespace Repository.EF
     public class BaseRepository<T> where T: BaseEntity, new()
     {
 
-        protected LOCAL_DBEntities CreateContext()
+        protected EFContext CreateContext()
         {
-            return new LOCAL_DBEntities();
+            return new EFContext();
         }
 
         public List<T> FindAll()

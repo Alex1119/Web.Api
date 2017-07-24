@@ -15,7 +15,7 @@ namespace IService
 
         int CountsFromRedis();
 
-        UserInfo Register(string UserName, bool? Gender, int? Age);
+        UserInfo Register(string UserName, bool Gender, int Age);
         
       
     }

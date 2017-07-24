@@ -12,6 +12,6 @@ namespace IRepository.EF
 
         int Counts();
 
-        UserInfo Register(string UserName, bool? Gender, int? Age);
+        UserInfo Register(string UserName, bool Gender, int Age);
     }
 }

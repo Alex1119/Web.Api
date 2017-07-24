@@ -15,7 +15,7 @@ namespace Repository.EF
             return Count();
         }
 
-        public UserInfo Register(string UserName, bool? Gender, int? Age)
+        public UserInfo Register(string UserName, bool Gender, int Age)
         {
             var entity = new UserInfo
             {
@@ -23,7 +23,8 @@ namespace Repository.EF
                 UserName = UserName,
                 Gender = Gender,
                 Age = Age,
-                CreateTime = DateTime.Now
+                CreateTime = DateTime.Now,
+                LastUpdateTime = DateTime.Now
             };
             if (Add(entity))
             {

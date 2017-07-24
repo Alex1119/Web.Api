@@ -45,7 +45,7 @@ namespace Service
             return _IUserInfoRepository.Counts();
         }
 
-        public UserInfo Register(string UserName, bool? Gender, int? Age) {
+        public UserInfo Register(string UserName, bool Gender, int Age) {
             var entity = _IUserRepository.Register(UserName, Gender, Age);
             if (entity != null) {
                 new DLXProducter().Pub<UserInfo>(entity);

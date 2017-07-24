@@ -10,8 +10,8 @@ namespace ViewModel.User
     {
         public string UserName { get; set; }
 
-        public bool? Gender { get; set; }
+        public bool Gender { get; set; }
 
-        public int? Age { get; set; }
+        public int Age { get; set; }
     }
 }

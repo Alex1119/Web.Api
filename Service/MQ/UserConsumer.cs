@@ -38,7 +38,6 @@ namespace Service.MQ
                 consumer.Received += (model, ea) =>
                 {
                     try {
-                        var a = int.Parse("12w");
                         var userInfo = JSONHelper.DeserializeObject<MQMessage<UserInfo>>(ea.Body);
                         try {
                             if (_IUserDetailRepository.Add(userInfo.Data.UserID, userInfo.Data.UserName))
@@ -47,18 +46,15 @@ namespace Service.MQ
                             }
                             else
                             {
-                                //channel.BasicNack(ea.DeliveryTag, false, false);
                                 Reject(channel, ea);
                             }
                         }
                         catch (Exception ex)
                         {
-                            //channel.BasicNack(ea.DeliveryTag, false, false);
                             Reject(channel, ea);
                         }
                     }
                     catch (Exception ex) {
-                        //channel.BasicNack(ea.DeliveryTag, false, false);
                         Reject(channel, ea);
                     }
                     

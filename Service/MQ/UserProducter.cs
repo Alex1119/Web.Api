@@ -18,7 +18,7 @@ namespace Service.MQ
             var userInfo = Data as UserInfo;
             if (userInfo != null)
             {
-                Pub<UserInfo>(new MQMessage<UserInfo>(5000, MQ_USER_EXCHANGE, MQ_USER_QUEUE, MQ_USER_ROUTEKEY, userInfo));
+                Pub<UserInfo>(new MQMessage<UserInfo>(MQ_USER_EXCHANGE, MQ_USER_QUEUE, MQ_USER_ROUTEKEY, userInfo));
             }
         }
         

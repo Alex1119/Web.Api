@@ -456,3 +456,10 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csproj.GenerateResource.Cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swashbuckle.Core.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebActivator.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebActivatorEx.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WEB.API.XML

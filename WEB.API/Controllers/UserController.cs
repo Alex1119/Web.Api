@@ -25,6 +25,11 @@ namespace WEB.API.Controllers
         public IUserService _IUserService { get; set; }
         #endregion
 
+        /// <summary>
+        /// 用户注册
+        /// </summary>
+        /// <param name="viewModel"></param>
+        /// <returns></returns>
         [HttpPost]
         public ResponseData<DTO_Output_Register> Register(DTO_Input_Register viewModel) {
             var entity = _IUserService.Register(viewModel.UserName, viewModel.Gender, viewModel.Age);

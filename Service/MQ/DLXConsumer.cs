@@ -21,7 +21,7 @@ namespace Service.MQ
             try
             {
                 var queueArg = new Dictionary<string, object>();
-                queueArg.Add("x-message-ttl", 10000);//队列上消息过期时间，应小于队列过期时间
+                //queueArg.Add("x-message-ttl", 10000);//队列上消息过期时间，应小于队列过期时间
                 queueArg.Add("x-dead-letter-exchange", MQ_USER_EXCHANGE);//过期消息转向路由  
                 queueArg.Add("x-dead-letter-routing-key", MQ_USER_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
                 Subscribe(ref connection, ref channel, MQ_DLX_EXCHANGE, MQ_DLX_QUEUE, MQ_DLX_ROUTEKEY, queueArg);
@@ -30,13 +30,23 @@ namespace Service.MQ
                 {
                     try
                     {
-                        var reQueueCount = (int)ea.BasicProperties.Headers["x-dead"];
+                        var rePubList = (List<object>)ea.BasicProperties.Headers["x-death"];
+                        var reQueueCount = rePubList.Count;
                         if (reQueueCount >= 10)
                         {
                             channel.BasicAck(ea.DeliveryTag, false);
                         }
                         else {
-                            channel.BasicNack(ea.DeliveryTag, false, false);
+                            var unixTimeStamp = ((AmqpTimestamp)(((IDictionary<string, object>)rePubList.FirstOrDefault())["time"])).UnixTime;
+                            DateTime startTime = TimeZone.CurrentTimeZone.ToLocalTime(new DateTime(1970, 1, 1)); // 当地时区
+                            DateTime latestReQueueTime = startTime.AddSeconds(unixTimeStamp);
+                            if (DateTime.Now >= latestReQueueTime.AddMilliseconds(5000))
+                            {
+                                channel.BasicReject(ea.DeliveryTag, false);
+                            }
+                            else {
+                                channel.BasicReject(ea.DeliveryTag, true);
+                            }
                         }
                     }
                     catch (Exception ex)
@@ -45,7 +55,7 @@ namespace Service.MQ
                     }
 
                 };
-                channel.BasicConsume(MQ_USER_QUEUE, false, consumer);
+                channel.BasicConsume(MQ_DLX_QUEUE, false, consumer);
             }
             catch (Exception ex)
             {

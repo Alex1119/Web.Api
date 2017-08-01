@@ -11,6 +11,8 @@ namespace Entity.MongoDB
     {
         T ID { get; }
     }
+
+    [Serializable]
     public abstract class AggregateBase : IEntityBase<Guid>
     {
         public Guid ID { get; set; }

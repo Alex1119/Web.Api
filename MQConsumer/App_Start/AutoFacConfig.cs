@@ -38,6 +38,7 @@ namespace MQConsumer.App_Start
               .AsImplementedInterfaces();
 
             builder.RegisterType<UserConsumer>().SingleInstance();
+            builder.RegisterType<DLXConsumer>().SingleInstance();
 
         }
     }

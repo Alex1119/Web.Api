@@ -98,7 +98,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MQ\DLXConsumer.cs" />
-    <Compile Include="MQ\MQMessage.cs" />
     <Compile Include="MQ\DLXProducter.cs" />
     <Compile Include="MQ\UserConsumer.cs" />
     <Compile Include="MQ\MQBase.cs" />

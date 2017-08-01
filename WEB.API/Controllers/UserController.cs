@@ -33,6 +33,7 @@ namespace WEB.API.Controllers
         [HttpPost]
         public ResponseData<DTO_Output_Register> Register(DTO_Input_Register viewModel) {
             var entity = _IUserService.Register(viewModel.UserName, viewModel.Gender, viewModel.Age);
+
             return Response<DTO_Output_Register>(new DTO_Output_Register().ConvertFrom(entity));
         }
 

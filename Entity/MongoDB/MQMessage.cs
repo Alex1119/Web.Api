@@ -1,4 +1,6 @@
 ﻿using Entity;
+using Entity.MongoDB;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 namespace Service.MQ
 {
     [Serializable]
-    public class MQMessage<T>
+    public class MQMessage<T> : AggregateBase
     {
         //该条消息需要被重新分发
         //public MQMessageType Rediliver { get; set; }
@@ -22,6 +24,9 @@ namespace Service.MQ
         public string ConsumerRouingKey { get; set; }
         //消息主体
         public T Data { get; set; }
+
+        [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
+        public DateTime CreateTime { get; set; }
 
         public MQMessage(string ConsumerExchange, string ConsumerQueue, string ConsumerRouingKey, T Data){
             //this.Rediliver = MQMessageType.UNACCEPT;

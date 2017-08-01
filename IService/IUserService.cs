@@ -11,6 +11,7 @@ namespace IService
     {
 
         UserInfo Register(string UserName, bool Gender, int Age);
+       
       
     }
 }

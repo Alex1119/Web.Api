@@ -125,6 +125,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Mong
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\MongoDB.Driver.Core.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\MongoDB.Driver.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Service.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\ServiceStack.Common.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\ServiceStack.Interfaces.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\ServiceStack.Redis.dll
@@ -138,8 +139,13 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Syst
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\System.Web.WebPages.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\IService.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\RabbitMQ.Client.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Util.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\AutoMapper.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Entity.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\IRepository.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Service.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Autofac.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Autofac.Integration.Mvc.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Autofac.Integration.WebApi.xml
@@ -161,6 +167,10 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Syst
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\System.Web.WebPages.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\IService.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\RabbitMQ.Client.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\Util.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\AutoMapper.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\zh-Hans\EntityFramework.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache

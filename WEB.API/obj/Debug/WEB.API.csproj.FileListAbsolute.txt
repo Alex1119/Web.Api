@@ -316,6 +316,7 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\roslyn\vbc.ex
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\roslyn\VBCSCompiler.exe
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WEB.API.dll.config
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WEB.API.XML
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WEB.API.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WEB.API.pdb
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Antlr3.Runtime.dll
@@ -352,6 +353,8 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Newtonsoft.Js
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Owin.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Repository.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Service.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swashbuckle.Core.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Net.Http.Formatting.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.Helpers.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.Http.dll
@@ -364,6 +367,8 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.We
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.WebPages.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.WebPages.Razor.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ViewModel.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebActivator.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebActivatorEx.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebGrease.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\MongoDB.Bson.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\ServiceStack.Interfaces.dll
@@ -392,6 +397,8 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.AI.
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.ApplicationInsights.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Newtonsoft.Json.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Net.Http.Formatting.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.Helpers.xml
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\System.Web.Http.xml
@@ -456,10 +463,3 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.csproj.GenerateResource.Cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\obj\Debug\WEB.API.pdb
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swashbuckle.Core.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebActivator.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WebActivatorEx.dll
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.pdb
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\Swagger.Net.xml
-C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\WEB.API\bin\WEB.API.XML

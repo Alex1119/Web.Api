@@ -164,6 +164,10 @@
       <Project>{5e901ad5-6c60-47c0-bb62-603a2c11f67b}</Project>
       <Name>IRepository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{09602BFC-5096-4791-B581-3A9461431265}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

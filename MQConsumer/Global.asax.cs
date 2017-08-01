@@ -24,8 +24,10 @@ namespace MQConsumer
 
             Container = AutoFacConfig.AutoFacInit();
             var userConsumer = Container.Resolve<UserConsumer>();
+            var dlxConsumer = Container.Resolve<DLXConsumer>();
             userConsumer.Sub();
-            new DLXProducter().Declare();
+            dlxConsumer.Sub();
+            //new DLXProducter().Declare();
         }
     }
 }

@@ -17,9 +17,11 @@ namespace Service.MQ
         public IModel channel;
         public EventingBasicConsumer consumer;
         public IUserDetailRepository _IUserDetailRepository;
+        public ILogRepository _ILogRepository;
 
-        public UserConsumer(IUserDetailRepository _IUserDetailRepository) {
+        public UserConsumer(IUserDetailRepository _IUserDetailRepository, ILogRepository _ILogRepository) {
             this._IUserDetailRepository = _IUserDetailRepository;
+            this._ILogRepository = _ILogRepository;
         }
 
         public void Sub() {
@@ -39,23 +41,23 @@ namespace Service.MQ
                 {
                     try {
                         var userInfo = JSONHelper.DeserializeObject<MQMessage<UserInfo>>(ea.Body);
-                        try {
-                            if (_IUserDetailRepository.Add(userInfo.Data.UserID, userInfo.Data.UserName))
-                            {
-                                channel.BasicAck(ea.DeliveryTag, false);
-                            }
-                            else
-                            {
-                                Reject(channel, ea);
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            Reject(channel, ea);
-                        }
+                        _ILogRepository.AddMQLog(userInfo);
+                        //if (_IUserDetailRepository.Add(userInfo.Data.UserID, userInfo.Data.UserName))
+                        //{
+                        //    //处理业务逻辑成功
+                        //    channel.BasicAck(ea.DeliveryTag, false);
+                        //}
+                        //else
+                        //{
+                            //处理业务逻辑失败
+                            //Reject(channel, ea);
+                            channel.BasicReject(ea.DeliveryTag, false);
+                        //}
                     }
                     catch (Exception ex) {
-                        Reject(channel, ea);
+                        //处理业务逻辑报错
+                        //Reject(channel, ea);
+                        channel.BasicReject(ea.DeliveryTag, false);
                     }
                     
                 };

@@ -110,3 +110,13 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\zh
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\obj\Release\Repository.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\obj\Release\Repository.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\obj\Release\Repository.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\Service.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\IService.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\RabbitMQ.Client.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\Util.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\AutoMapper.dll
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\Service.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\IService.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\RabbitMQ.Client.xml
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\Util.pdb
+C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Repository\bin\Release\AutoMapper.xml

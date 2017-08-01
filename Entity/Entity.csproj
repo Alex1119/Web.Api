@@ -73,6 +73,7 @@
     <Compile Include="Enum.cs" />
     <Compile Include="MongoDB\AggregateBase.cs" />
     <Compile Include="MongoDB\ExceptionLog.cs" />
+    <Compile Include="MongoDB\MQMessage.cs" />
     <Compile Include="MongoDB\UserDetailEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

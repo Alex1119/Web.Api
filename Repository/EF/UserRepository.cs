@@ -28,7 +28,8 @@ namespace Repository.EF
             };
             if (Add(entity))
             {
-                return entity;
+                //return entity;
+                return FirstOrDefault(p => p.UserID.Equals(entity.UserID));
             }
             else {
                 return null;

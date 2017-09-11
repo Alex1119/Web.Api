@@ -10,7 +10,7 @@ namespace Repository.MongoDB
 {
     public class UserDetailRepository : IUserDetailRepository
     {
-        #region
+        #region Const
         public const string MONGODB_CONFIG_SELECTION_KEY = "MongoConfig";
         public const string USER_DETAIL_COLLECTION_NAME = "USER_DETAIL";
 

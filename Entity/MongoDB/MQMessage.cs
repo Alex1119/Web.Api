@@ -24,6 +24,8 @@ namespace Service.MQ
         public string ConsumerRouingKey { get; set; }
         //消息主体
         public T Data { get; set; }
+        
+        public int RejectTime { get; set; }
 
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
         public DateTime CreateTime { get; set; }

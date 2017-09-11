@@ -97,6 +97,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\MQRetryQueueInfo.cs" />
+    <Compile Include="Config\MQRetryQueueManager.cs" />
     <Compile Include="MQ\DLXConsumer.cs" />
     <Compile Include="MQ\DLXProducter.cs" />
     <Compile Include="MQ\UserConsumer.cs" />

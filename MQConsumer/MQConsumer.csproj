@@ -229,6 +229,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\MQRetryQueue.xml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -315,6 +316,10 @@
     <ProjectReference Include="..\Service\Service.csproj">
       <Project>{09602bfc-5096-4791-b581-3a9461431265}</Project>
       <Name>Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{559ADD0D-9F50-48FB-8DA5-0E7B0A407EC2}</Project>
+      <Name>Util</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

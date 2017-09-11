@@ -27,9 +27,8 @@ namespace Service.MQ
         public void Sub() {
             try {
                 var queueArg = new Dictionary<string, object>();  
-                queueArg.Add("x-dead-letter-exchange", MQ_DLX_EXCHANGE);//过期消息转向路由  
-                queueArg.Add("x-dead-letter-routing-key", MQ_DLX_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
-                Subscribe(ref connection, ref channel, MQ_USER_EXCHANGE, MQ_USER_QUEUE, MQ_USER_ROUTEKEY, queueArg);
+                queueArg.Add("x-dead-letter-exchange", MQ_DLX_EXCHANGE);//过期消息转向路由
+                Subscribe(ref connection, ref channel, MQ_USER_EXCHANGE, MQ_USER_QUEUE, MQ_USER_ROUTEKEY, null, queueArg);
                 var headers = new Dictionary<string, object>();
                 //all:表示所有的键值对都匹配才能接受到消息  
                 //any:表示只要有键值对匹配就能接受到消息 
@@ -50,14 +49,14 @@ namespace Service.MQ
                         //else
                         //{
                             //处理业务逻辑失败
-                            //Reject(channel, ea);
-                            channel.BasicReject(ea.DeliveryTag, false);
+                            //channel.BasicReject(ea.DeliveryTag, false);
+                            Reject<UserInfo>(channel, ea, userInfo);
                         //}
                     }
                     catch (Exception ex) {
                         //处理业务逻辑报错
                         //Reject(channel, ea);
-                        channel.BasicReject(ea.DeliveryTag, false);
+                        //channel.BasicReject(ea.DeliveryTag, false);
                     }
                     
                 };

@@ -42,11 +42,29 @@ namespace Service.MQ
         {
             try
             {
-                var queueArg = new Dictionary<string, object>();
-                queueArg.Add("x-message-ttl", 10000);//队列上消息过期时间，应小于队列过期时间
-                queueArg.Add("x-dead-letter-exchange", MQ_USER_EXCHANGE);//过期消息转向路由  
-                queueArg.Add("x-dead-letter-routing-key", MQ_USER_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
-                Subscribe(ref connection, ref channel, MQ_DLX_EXCHANGE, MQ_DLX_QUEUE, MQ_DLX_ROUTEKEY, queueArg);
+                //var queueArg = new Dictionary<string, object>();
+                //queueArg.Add("x-message-ttl", 10000);//队列上消息过期时间，应小于队列过期时间
+                //queueArg.Add("x-dead-letter-exchange", MQ_USER_EXCHANGE);//过期消息转向路由  
+                //queueArg.Add("x-dead-letter-routing-key", MQ_USER_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
+                ////Subscribe(ref connection, ref channel, MQ_DLX_EXCHANGE, MQ_DLX_QUEUE, MQ_DLX_ROUTEKEY, null, queueArg);
+
+                connection = CreateConnectFactory().CreateConnection();
+                channel = connection.CreateModel();
+                channel.BasicQos(0, 1, false);
+                channel.ExchangeDeclare(MQ_DLX_EXCHANGE, ExchangeType.Headers, true, false, null);
+
+                MQ_RETRY_QUEUE_LIST.ForEach((item) =>
+                {
+                    channel.QueueDeclare(item.QueueName, true, false, false, new Dictionary<string, object>() {
+                        { "x-message-ttl", item.TTL},
+                        { "x-dead-letter-exchange", MQ_USER_EXCHANGE}
+                    });
+                    channel.QueueBind(item.QueueName, MQ_DLX_EXCHANGE, string.Empty,
+                        new Dictionary<string, object>() {
+                            { "x-match", "all" },
+                            { "RouteKey", item.QueueName }
+                        });
+                });
             }
             catch (Exception ex)
             {
@@ -55,42 +73,49 @@ namespace Service.MQ
             {
                 UnSubscribe(connection, channel);
             }
-
         }
 
-        //public void Pub<T>(MQMessage<T> Message)
-        //{
-        //    try
-        //    {
-        //        var exchangeArg = new Dictionary<string, object>();
-        //        //exchangeArg.Add("x-message-ttl", Message.MessageTTL);//队列上消息过期时间，应小于队列过期时间
-        //        exchangeArg.Add("x-dead-letter-exchange", MQ_USER_EXCHANGE);//过期消息转向路由  
-        //        //exchangeArg.Add("x-dead-letter-routing-key", message.ConsumerRouingKey);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
+        public void Pub<T>(MQMessage<T> message, Dictionary<string, object> headers = null)
+        {
+            IConnection connection = null;
+            IModel channel = null;
+            try
+            {
 
-        //        connection = CreateConnectFactory().CreateConnection();
-        //        channel = connection.CreateModel();
-        //        channel.ExchangeDeclare(MQ_DLX_EXCHANGE, ExchangeType.Direct, true, true, null);
-        //        channel.QueueDeclare(MQ_DLX_QUEUE, true, false, true, exchangeArg);
-        //        channel.QueueBind(MQ_DLX_QUEUE, MQ_DLX_EXCHANGE, MQ_DLX_ROUTEKEY);
-        //        //var properties = channel.CreateBasicProperties();
-        //        //properties.DeliveryMode = 2;//数据持久化
-        //        ////properties.Expiration = Message.MessageTTL.ToString();//设置单条消息的过期时间
-        //        //var headers = new Dictionary<string, object>();
-        //        //headers.Add("x-match", "all");
-        //        //headers.Add("RouteKey", Message.ConsumerRouingKey);
-        //        //properties.Headers = headers;
-        //        //var msgBytes = JSONHelper.SerializeToByte(Message);
-        //        //channel.BasicPublish(MQ_DLX_EXCHANGE, MQ_DLX_ROUTEKEY, properties, msgBytes);
-        //    }
-        //    catch (Exception ex)
-        //    {
+                connection = CreateConnectFactory().CreateConnection();
+                channel = connection.CreateModel();
+                channel.BasicQos(0, 1, false);
+                channel.ExchangeDeclare(MQ_DLX_EXCHANGE, ExchangeType.Headers, true, false, null);
 
-        //    }
-        //    finally
-        //    {
-        //        UnSubscribe(connection, channel);
-        //    }
-        //}
+                foreach (var item in MQ_RETRY_QUEUE_LIST)
+                {
+                    if (message.RejectTime.Equals(item.RejectTime))
+                    {
+                        channel.QueueDeclare(item.QueueName, true, false, false, new Dictionary<string, object>() {
+                            { "x-message-ttl", item.TTL},
+                            { "x-dead-letter-exchange", MQ_USER_EXCHANGE}
+                        });
+                        channel.QueueBind(item.QueueName, MQ_DLX_EXCHANGE, string.Empty,new Dictionary<string, object>() {
+                            { "x-match", "all" },
+                            { "RouteKey", item.QueueName }
+                        });
+                    }
+                }
+                var properties = channel.CreateBasicProperties();
+                properties.DeliveryMode = 2;//数据持久化
+                properties.Headers = headers;
+                var msgBytes = JSONHelper.SerializeToByte(message);
+                channel.BasicPublish(MQ_DLX_EXCHANGE, string.Empty, properties, msgBytes);
+                
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                UnSubscribe(connection, channel);
+            }
+        }
 
     }
 }

@@ -16,3 +16,12 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\bin\Release\Newtonso
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\obj\Release\Util.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\Util\obj\Release\Util.pdb
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\bin\Release\Util.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\bin\Release\Util.pdb
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\bin\Release\AutoMapper.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\bin\Release\Newtonsoft.Json.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\bin\Release\AutoMapper.xml
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\bin\Release\Newtonsoft.Json.xml
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\obj\Release\Util.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\obj\Release\Util.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\Util\obj\Release\Util.pdb

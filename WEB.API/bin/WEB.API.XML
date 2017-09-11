@@ -481,7 +481,7 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
-        <member name="M:WEB.API.Controllers.UserController.Register(ViewModel.User.DTO_Input_Register)">
+        <member name="M:WEB.API.Controllers.V1.UserController.Register(ViewModel.User.DTO_Input_Register)">
             <summary>
             用户注册
             </summary>

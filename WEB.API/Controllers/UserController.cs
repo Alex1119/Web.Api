@@ -15,7 +15,7 @@ using ViewModel;
 using WEB.API.Filter;
 using IRepository.MongoDB;
 
-namespace WEB.API.Controllers
+namespace WEB.API.Controllers.V1
 {
     [TokenFilter, BaseExceptionFilter]
     public class UserController : BaseController

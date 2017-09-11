@@ -1,4 +1,5 @@
-﻿using RabbitMQ.Client;
+﻿using MQConsumer.Config;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
@@ -24,6 +25,8 @@ namespace Service.MQ
         public const string MQ_USER_EXCHANGE = "MQ_USER_EXCHANGE";
         public const string MQ_USER_QUEUE = "MQ_USER_QUEUE";
         public const string MQ_USER_ROUTEKEY = "MQ_USER_ROUTEKEY";
+
+        public List<MQRetryQueueItem> MQ_RETRY_QUEUE_LIST { get { return MQRetryQueueManager.Instance().ConfigInfo; } }
         #endregion
 
         protected ConnectionFactory CreateConnectFactory()
@@ -42,11 +45,12 @@ namespace Service.MQ
             return connectionFactory;
         }
 
-        public void Subscribe(ref IConnection Connection, ref IModel Channel, string Exchange, string Queue, string Routekey,Dictionary<string, object> queueArg = null) {
+        public void Subscribe(ref IConnection Connection, ref IModel Channel, string Exchange, string Queue, string Routekey
+            , Dictionary<string, object> exchangeArg = null,Dictionary<string, object> queueArg = null) {
             Connection = CreateConnectFactory().CreateConnection();
             Channel = Connection.CreateModel();
             Channel.BasicQos(0, 1, false);
-            Channel.ExchangeDeclare(Exchange, ExchangeType.Headers, true, false, null);
+            Channel.ExchangeDeclare(Exchange, ExchangeType.Headers, true, false, exchangeArg);
             Channel.QueueDeclare(Queue, true, false, false, queueArg);
             Channel.QueueBind(Queue, Exchange, Routekey);
         }
@@ -79,7 +83,7 @@ namespace Service.MQ
                 //exchangeArg.Add("x-message-ttl", message.MessageTTL);//队列上消息过期时间，应小于队列过期时间  
                 queueArg.Add("x-dead-letter-exchange", MQ_DLX_EXCHANGE);//过期消息转向路由
                 queueArg.Add("x-dead-letter-routing-key", MQ_DLX_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
-                Subscribe(ref connection, ref channel, message.ConsumerExchange, message.ConsumerQueue, message.ConsumerRouingKey, queueArg);
+                Subscribe(ref connection, ref channel, message.ConsumerExchange, message.ConsumerQueue, message.ConsumerRouingKey, null, queueArg);
                 var properties = channel.CreateBasicProperties();
                 properties.DeliveryMode = 2;//数据持久化
                 var headers = new Dictionary<string, object>();
@@ -98,19 +102,67 @@ namespace Service.MQ
             }
         }
 
-        public void Reject(IModel channel, BasicDeliverEventArgs ea)
+        public void Pub<T>(MQMessage<T> message, Dictionary<string, object> headers = null)
         {
-            var rePubList = new List<object>();
-            if (ea.BasicProperties.Headers.Keys.Contains("x-death")) {
-                rePubList = (List<object>)ea.BasicProperties.Headers["x-death"];
-            };
-            if (rePubList.Count() < 10) //死信队列中以过期形式重新转向，所以也会增加一次 x-dead 次数
+            IConnection connection = null;
+            IModel channel = null;
+            try
             {
-                channel.BasicNack(ea.DeliveryTag, false, false);
+                var queueArg = new Dictionary<string, object>();
+                //exchangeArg.Add("x-message-ttl", message.MessageTTL);//队列上消息过期时间，应小于队列过期时间  
+                queueArg.Add("x-dead-letter-exchange", MQ_DLX_EXCHANGE);//过期消息转向路由
+                queueArg.Add("x-dead-letter-routing-key", MQ_DLX_ROUTEKEY);//过期消息转向路由相匹配routingkey, 如果不指定沿用死信队列的routingkey
+                Subscribe(ref connection, ref channel, message.ConsumerExchange, message.ConsumerQueue, message.ConsumerRouingKey, null, queueArg);
+                var properties = channel.CreateBasicProperties();
+                properties.DeliveryMode = 2;//数据持久化
+                properties.Headers = headers;
+                var msgBytes = JSONHelper.SerializeToByte(message);
+                channel.BasicPublish(message.ConsumerExchange, message.ConsumerRouingKey, properties, msgBytes);
             }
-            else {
-                channel.BasicAck(ea.DeliveryTag, false);
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                UnSubscribe(connection, channel);
             }
         }
+
+        public void Reject<T>(IModel channel, BasicDeliverEventArgs ea, MQMessage<T> message)
+        {
+            if (message.RejectTime < 5) 
+            {
+                var rejectTime = message.RejectTime;
+                foreach (var item in MQ_RETRY_QUEUE_LIST) {
+                    if (rejectTime.Equals(item.RejectTime)) {
+                        var headers = new Dictionary<string, object>();
+                        headers.Add("x-match", "all");
+                        headers.Add("RouteKey", item.QueueName);
+                        message.RejectTime += 1; //重试次数加一
+                        new DLXProducter().Pub<T>(message, headers);
+                    }
+                }
+            }
+            channel.BasicAck(ea.DeliveryTag, false);
+        }
+
+        //public void Reject(IModel channel, BasicDeliverEventArgs ea)
+        //{
+        //    var rePubList = new List<object>();
+        //    if (ea.BasicProperties.Headers.Keys.Contains("x-death"))
+        //    {
+        //        rePubList = (List<object>)ea.BasicProperties.Headers["x-death"];
+        //    };
+        //    if (rePubList.Count() < 10) //死信队列中以过期形式重新转向，所以也会增加一次 x-dead 次数
+        //    {
+        //        channel.BasicNack(ea.DeliveryTag, false, false);
+        //    }
+        //    else
+        //    {
+        //        channel.BasicAck(ea.DeliveryTag, false);
+        //    }
+
+        //}
+
     }
 }

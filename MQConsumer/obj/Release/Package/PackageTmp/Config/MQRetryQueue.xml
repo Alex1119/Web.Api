@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <item RejectTime="0" QueueName="RETRY_QUEUE_5" TTL="30000"/>
+  <item RejectTime="2" QueueName="RETRY_QUEUE_10" TTL="60000"/>
+  <item RejectTime="4" QueueName="RETRY_QUEUE_15" TTL="90000"/>
+  <item RejectTime="6" QueueName="RETRY_QUEUE_20" TTL="120000"/>
+  <item RejectTime="8" QueueName="RETRY_QUEUE_25" TTL="150000"/>
+</Root>

@@ -30,3 +30,15 @@ C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\bin\Debug\zh-Han
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Debug\IService.dll
 C:\Users\hzguest3\Documents\Project\webApi4Git\Web.Api\IService\obj\Debug\IService.pdb
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\IService.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\IService.pdb
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\Entity.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\MongoDB.Bson.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\EntityFramework.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\Entity.pdb
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\MongoDB.Bson.xml
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\EntityFramework.xml
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\obj\Debug\IService.csprojResolveAssemblyReference.cache
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\obj\Debug\IService.dll
+C:\Users\hzguest3\Documents\Project\ALEX\webApi4Git\Web.Api\IService\obj\Debug\IService.pdb
